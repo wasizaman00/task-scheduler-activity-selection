@@ -1,0 +1,94 @@
+# Task Scheduler with Activity Selection
+
+This project implements a Task Scheduler system using:
+
+- Greedy Activity Selection Algorithm
+- Brute Force Algorithm
+
+The system selects the maximum number of non-overlapping tasks from a given list of tasks.
+
+---
+
+## Features
+
+- Task scheduling using Greedy Algorithm
+- Brute Force comparison
+- Maximum non-overlapping task selection
+- Time complexity comparison
+- Optimality verification
+
+---
+
+## Programming Language
+
+C Programming Language
+
+---
+
+## Input
+
+The user provides:
+
+- Start time
+- End time
+
+for multiple tasks.
+
+---
+
+## Algorithms Used
+
+### Greedy Algorithm
+- Sorts tasks by finishing time
+- Selects tasks efficiently
+- Produces optimal result
+
+### Brute Force Algorithm
+- Checks all possible combinations
+- Finds the best valid schedule
+- Slower for large input sizes
+
+---
+
+## Time Complexity
+
+| Algorithm | Complexity |
+|---|---|
+| Greedy Algorithm | O(n²) |
+| Brute Force | O(n × 2ⁿ) |
+
+---
+
+## Sample Output
+
+Greedy:
+(1,3)
+(4,6)
+(6,8)
+
+Total = 3
+
+Brute:
+(1,3)
+(4,6)
+(6,8)
+
+Total = 3
+
+Optimal
+
+---
+
+## Project Purpose
+
+This project demonstrates why greedy algorithms are highly effective for real-life scheduling problems such as:
+
+- CPU Scheduling
+- Hospital Appointment Scheduling
+- Event Management
+
+---
+
+## Author
+
+Wasi Zaman
